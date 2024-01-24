@@ -1,0 +1,147 @@
+@media (max-width:480px) {
+    .barra{
+        gap: 0;
+    }
+    .barra .cyan{
+        display: none;
+    }
+    .barra .boton1, .barra .boton2{
+        display: none;
+    }
+    .menunaranja{
+        display: block;
+    }
+    .seccion .hijoseccion{
+        margin-left: 0;
+        width: 90%;
+        padding: 0px 10px;
+        padding-top: 85px;
+        margin: 0;
+    }
+    .seccion{
+        flex-direction: column;
+        
+        /* padding: 154px; */
+    }
+    .seccion h4, .seccion h1{
+        margin: 0;
+    }
+    .imagenseccionpc{
+        display: none;
+    }
+    .imagenseccionmobile{
+        display: block;
+    }
+    .seccion .hijo1seccion{
+        width: 100%;
+        padding-top: 10px;
+    }
+    .seccion1{
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+    .hijoseccion1{
+        width: 80%;
+        padding: 0;
+        margin: 22px 22px;
+        padding: 20px;
+    }
+    .hijo1seccion1{
+        width: 80%;
+        padding: 0;
+        margin: 22px 22px;
+        padding: 20px;
+    }
+    .seccion2{
+        flex-direction: column;
+    }
+    .seccion2 .contenido{
+        padding: 0;!important;
+        margin: 0;
+        width: 0;
+        transform: scaleX(-1);
+    }
+    .seccion2 .hijo1{
+        transform: scaleX(-1);
+        width: 100%;
+    }
+    .seccion2 .hijo2{
+        width: 100%;
+        transform: scaleX(-1);
+        border-top-left-radius: 200px;
+    }
+    .imgseccion2{
+        border-top-right-radius: 200px;
+    }
+    .seccion2 .hijo2 .contenido h1{
+        padding-left: 50px;
+        width: 100%;
+    }
+    .seccion2 .hijo2 .contenido .parra1{
+        padding-left: 50px;
+        width: 100%;
+    }
+    .seccion2 .hijo2 .contenido .parra2{
+        padding-left: 50px;
+        width: 100%;
+    }
+    .seccion3 .bloq1{
+        display: none;
+    }
+    .seccion3 .bloq2{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-top: 30px;
+    }
+    .seccion4{
+        flex-direction: column-reverse;
+    }
+    .seccion4 .bloq1{
+        width: 80%;
+        padding: 0;
+        padding: 20px 20px;
+    }
+    .seccion4 .bloq2{
+        width: 80%;
+        padding: 0;
+        padding: 20px 20px;
+    }
+    .imgseccion4{
+        width: 15%;
+    }
+    .tiseccion4{
+        width: 100%;
+        font-size: 20px;
+    }
+    .seccion4 .bloq1 .encabezado{
+        flex-direction: column;
+    }
+    .seccion5 .fondo .paq{
+        padding: 0;
+        margin-bottom: 294px;
+    }
+    .seccion5 .fondo .paq .carta .car1{
+        display: none;
+    }
+    .seccion5 .fondo .paq .carta .car3{
+        display: none;
+    }
+    .seccion5 .fondo .paq .carta .car2{
+        width: 80%;
+        height: 477px;
+    }
+    .seccion5 .fondo{
+        background-image: none;
+    }
+    .seccion5{
+        background-image: url(../img/maskgroup.png);
+        background-size: 100%;
+        flex-direction: none;
+        height: 1076px;
+    }
+    .seccion5 .fondo .paq .carta .car2{
+        width: 80%;
+        height: 477px;
+    }
+}
